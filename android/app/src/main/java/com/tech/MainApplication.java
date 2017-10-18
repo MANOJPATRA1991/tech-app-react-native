@@ -1,4 +1,4 @@
-package com.auth;
+package com.tech;
 
 import android.app.Application;
 
