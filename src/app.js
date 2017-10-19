@@ -20,8 +20,10 @@ import LibraryList from './components/libraryList';
 class App extends Component {
     render() {
         return (
+            // Provider is for facilitating communication
+            // between react and redux
             <Provider store={createStore(reducers)}>
-                <View style={{ flex: 1 }}>
+                <View style={{ flex: 1, backgroundColor: '#fff' }}>
                     <Header headerText="Tech Stack" />
                     <LibraryList />
                 </View>
